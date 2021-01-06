@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Javier Belmonte</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="image/png" href="/images/javierb.png">
+	</head>
+	<body class="is-preload" >
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Javier Alejandro Belmonte</h1>
+							<p>Master of Science</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Downloads</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/javier-alejandro-belmonte/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/javierb07" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						</ul>
+						<ul id="languages" class="icons">
+							<li><a href="./index.html" class="es"><span class="label"></a></li>
+							<li><a href="./index-en.html" class="en"><span class="label"></a></li>
+							<li style="display:none"><a href="./index-de.html" class="de"><span class="label"></a></li>
+						</ul>
+				</div>
+			</div>
+		<!-- Main -->
+			<div id="main">
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<header>
+                                <h2 class="alt">Hello, I am <strong>Javier Belmonte</strong>, Master of Science in Mechanical Engineering
+                                    wit focus in mechatronics.</h2>
+								<p>I am a Full-Stack Developer with passion for software development, here you can find some of my projects.</p>
+								<p>Additionally, there is a download link for my resume.</p>
+								<p>Finally, there is a form to get in touch with me.</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							<p>Web Proyects with IoT Capabilities</p>
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://storage-system-jb.herokuapp.com/" class="image fit"><img src="./images/projects/storage-system/storage-system-1.jpeg" alt="" id="storage-system"/></a>
+										<header>
+											<h3>Intelligent Storage Management System</h3>
+											<p> It allows to manage materials stock. It consists of a database, a server and materials containers
+                                                with dedicated hardware, which act as clients to the server to update quantity of stored elements.
+                                                The calculation of the stored quantity is done by weight measurement.
+                                                Note: The app is hosted in Heroku, wait a few moments for the server to awake when trying the app.
+											</p>
+											<p><a href="https://storage-system-jb.herokuapp.com/"><i class="fa fa-window-maximize" aria-hidden="true"></i> App demo</a></p>
+											<p><a href="https://youtu.be/NZdVXT3DNc8"><i class="fas fa-video"></i> Functionality video</a></p> 
+											<p><a href=""><i class="fas fa-code"></i> Code not available due to pending patents </a></p>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://iot-control.herokuapp.com/control" class="image fit"><img src="./images/projects/iot-control-panel/iot-control-panel-1.jpeg" alt="" id="iot-control-panel"/></a>
+										<header>
+											<h3>Iot Control Panel</h3>
+											<p> Dashboard that allows control of machines or devices connected to smartplugs.
+                                                A WebSocket server is created for each smartplug, which allows to turn on, shutdown, or monitor power
+                                                consumption of the connected element. The name and the IP address of each devices is stored in a database.
+                                                Note: The app is hosted in Heroku, wait a few moments for the server to awake when trying the app. To test the app
+                                                a WebSocket especially created for this endevour can be used, so there is no need to set up an actual machine. The URL
+                                                for this WebSocket can be found in the webpage of the app.
+											</p>
+											<p><a href="https://iot-control.herokuapp.com/control"><i class="fa fa-window-maximize" aria-hidden="true"></i> App Demo</a></p>
+											<p><a href="https://youtu.be/daIK7hz21lI"><i class="fas fa-video"></i> Functionality</a></p> 
+											<p><a href="https://github.com/javierb07/iot-control-panel"><i class="fas fa-code"></i> Code</a></p>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://javierb07.github.io/iot-imu-unity" class="image fit"><img src="./images/projects/iot-imu-unity/iot-imu-unity-1.jpeg" alt="" id="iot-imu-unity"/></a>
+										<header>
+											<h3>IoT IMU with Visualization in the Browser and in Unity</h3>
+											<p> Visualization of the measurements of an inertial measurement unit on a web client, served through a
+                                                WebSocket server which receives measurements through serial port and exposes them. Imu rotation can be seen
+                                                in the browser throguh graphics developed with <a href="https://threejs.org/">three.js</a>
+                                                Additionally, an interface developed in Unity allows to visualize the rotation in a model.
+                                                To try the app it is possible to connect to WebSocket server, which has stored values taken from an actual IMU and serves
+                                                them upon request. The address of this WebSocket server can be seen in the webpage of the app.
+											</p>
+											<p><a href="https://javierb07.github.io/iot-imu-unity/"><i class="fa fa-window-maximize" aria-hidden="true"></i> App demo</a></p>
+											<p><a href="https://youtu.be/ljMI-mz-GBQ"><i class="fas fa-video"></i> Functionality Video</a></p> 
+											<p><a href="https://github.com/javierb07/iot-imu-unity"><i class="fas fa-code"></i> Code</a></p>
+										</header>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+				<!-- Downloads -->
+					<section id="about" class="three">
+						<div class="container">
+							<header>
+								<h2>Descargas</h2>
+							</header>
+							<p>Download resume: <a href="/downloads/J.A.Belmonte-EN.pdf"><i class="fas fa-download"></i></a></p>
+							<p style="display:none">Download portfolio: <a href="/downloads/Career Portfolio - Javier A. Belmonte - EN.pdf"><i class="fas fa-download"></i></a></p>
+
+						</div>
+					</section>
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<p>Use the following form to get in touch</p>
+							<form method="post" action="https://formspree.io/f/mayllpdb">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+										<input type="text" name="_gotcha" style="display:none" />
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+			</div>
+		<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Webportfolio. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Modifications: Javier Belmonte</li>
+						<li><a href="./index.html">Español</a></li>
+						<li style="display:none"><a href="./index-en.html">Deutsch</a></li>
+					</ul>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/looper.js"></script>
+	</body>
+</html>

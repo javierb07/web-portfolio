@@ -1817,6 +1817,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin-bottom: 0;
 	}
 
 		ul.icons li {
@@ -2070,7 +2071,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 1.5em 0 0.75em 0;
+			padding: 1.5em 0 0 0;
 		}
 
 			#header .bottom > :last-child {
@@ -2669,4 +2670,36 @@ header a {
 article a img {
 	height: 8em;
 	object-fit: contain;
+}
+#top {
+	padding: 0;
+}
+
+.de {
+	background-image: url(https://www.countryflags.io/de/flat/32.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.en {
+	background-image: url(https://www.countryflags.io/gb/flat/32.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+.es {
+	background-image: url(https://www.countryflags.io/es/flat/32.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+#languages{
+	margin-bottom: 0;
+}
+div.bottom{
+	padding-bottom: 0;
 }
