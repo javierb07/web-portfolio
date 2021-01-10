@@ -6,7 +6,6 @@ let x = 0;
 
 function displayNextImage(images, project) {
     $(project).attr("src", images[x]);
- 
 }
 function incrementCounter(){
     if(x >= imagesP1.length-1){
