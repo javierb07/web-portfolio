@@ -2272,6 +2272,7 @@ input, select, textarea {
 				background-color: #81918E;
 				color: #f8fbfd;
 				-webkit-animation: changeBg 20s infinite;
+				background-image: url("../../images/portadasjavis2.png");
 			}
 
 			#main > section.two {
