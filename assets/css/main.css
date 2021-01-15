@@ -1949,7 +1949,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #053d57;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1967,7 +1967,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #97bcc7;
 		}
 
 		input[type="button"]:active,
@@ -1983,6 +1983,9 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		background: #fff;
+		height: 100%;
+		position: relative;
 	}
 
 		.item header {
@@ -1995,6 +1998,21 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+
+		.item header .bot1{
+
+
+		}
+		.item header .bot2{
+
+
+		}
+		.item header .bot3{
+
+		}
+		.item header .bot{
+
+		}
 
 /* Icons */
 
@@ -2191,7 +2209,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #DEE1E3;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2228,7 +2246,7 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			background-image: url("images/portadasjavis2.png");
 		}
 
 			#main > section.dark {
@@ -2276,15 +2294,15 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #F8FBFD;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #F2F5F7;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #EDF0F2;
 			}
 
 /* Wide */
@@ -2363,6 +2381,7 @@ input, select, textarea {
 
 			#header {
 				width: 20%;
+				height: 100%;
 			}
 
 			#logo .image {
@@ -2712,4 +2731,11 @@ article a img {
 }
 div.bottom{
 	padding-bottom: 0;
+}
+
+h3{
+	font-weight: bold;
+}
+.titles {
+	font-weight: bold;
 }
