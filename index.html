@@ -25,7 +25,7 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introducción</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Porfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Descargas</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contacto</span></a></li>
 							</ul>
@@ -51,8 +51,8 @@
 						<div class="container">
 							<header>
 								<h2 class="alt">Hola, soy <strong>Javier Belmonte</strong>, máster en ingeniería con especialización en mecatrónica.</h2>
-								<p>Soy Full-Stack Developer con  pasión por el desarrollo de software, aquí se pueden encontrar algunos de mis proyectos.</p>
-								<p>Además, hay enlaces de descarga para mi CV y portfolio en PDF.</p>
+								<p>Soy Full-Stack Developer con pasión por el desarrollo de software, aquí se pueden encontrar algunos de mis proyectos.</p>
+								<p>Además, hay enlaces de descarga para mi CV y porfolio en formato PDF.</p>
 								<p>Finalmente, se puede encontrar un un formulario para comunicarse conmigo.</p>
 							</header>
 						</div>
@@ -62,25 +62,34 @@
 					<section id="portfolio" class="two">
 						<div class="container">
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Porfolio</h2>
 							</header>
 							<p class="titles">Proyectos de Desarrollo Web</p>
 							<div class="row">
-								<div class="col-6 col-12-mobile">
+								<div class="col-6 col-12-mobile" >
 									<article class="item">
 										<a href="https://storage-system-jb.herokuapp.com/" class="image fit"><img src="./images/projects/storage-system/storage-system-1.jpeg" alt="Siste de Almacenamiento" id="storage-system"/></a>
-										<header>
+										<header >
+											<div>
+												<a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a>
+												<a href="https://en.wikipedia.org/wiki/HTML"><i class="fab fa-html5 fa-2x"></i></a>
+												<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
+												<a href="https://nodejs.org/en/"><i class="fab fa-node fa-2x"></i></a>
+												<a href="https://www.mongodb.com/"><i id="icon-mongo"></i></a>
+												<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
+												<a href="https://en.wikipedia.org/wiki/C%2B%2B"><i id="icon-c"></i></a>
+											</div>
 											<h3>Sistema de Gestión de Almacenamiento Inteligente</h3>
-											<p>Permite gestionar stock de materiales. Consta de una base de datos, un servidor y contenedores
+											<p> Permite gestionar stock de materiales. Consta de una base de datos, un servidor y contenedores
 												de materiales con hardware dedicado, que actúan como clientes del servidor para actualizar la
 												cantidad de los elementos almacenados. El cálculo de la cantidad almacenada se hace por medio
 												de la medición del peso de los elementos. 
 												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
 												acceder.
 											</p>
-											<p class="bot1"><a href="https://storage-system-jb.herokuapp.com/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
-											<p class="bot2"><a href="https://youtu.be/NZdVXT3DNc8"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
-											<p class="bot3"><a href=""><i class="fas fa-code"></i> Código no disponible por patentes pendientes</a></p>
+											<p><a href="https://storage-system-jb.herokuapp.com/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
+											<p><a href="https://youtu.be/NZdVXT3DNc8"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
+											<p><a href=""><i class="fas fa-code"></i> Código no disponible por patentes pendientes</a></p>
 										</header>
 									</article>
 								</div>
@@ -88,8 +97,14 @@
 									<article class="item">
 										<a href="https://iot-control.herokuapp.com/control" class="image fit"><img src="./images/projects/iot-control-panel/iot-control-panel-1.jpeg" alt="Panel de Control" id="iot-control-panel"/></a>
 										<header>
+											<a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/HTML"><i class="fab fa-html5 fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
+											<a href="https://nodejs.org/en/"><i class="fab fa-node fa-2x"></i></a>
+											<a href="https://www.mongodb.com/"><i id="icon-mongo"></i></a>
+											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
 											<h3>Panel de Control IoT</h3>
-											<p>Tablero que permite controlar máquinas o dispositivos conectados a enchufes inteligentes.
+											<p> Tablero que permite controlar máquinas o dispositivos conectados a enchufes inteligentes.
 												Se crea un servidor WebSocket por cada enchufe que permite encender, apagar y controlar el consumo
 												del elemento conectado. El nombre y la dirección de cada dispositvo se almacena en una base de datos.
 												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
@@ -102,12 +117,19 @@
 										</header>
 									</article>
 								</div>
+							</div>
+							<br>
+							<div class="row">
 								<div class="col-6 h-100 col-12-mobile">
 									<article class="item">
 										<a href="https://javierb07.github.io/iot-imu-unity" class="image fit"><img src="./images/projects/iot-imu-unity/iot-imu-unity-1.jpeg" alt="Unidad de Medición Inercial" id="iot-imu-unity"/></a>
 										<header>
+											<a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/HTML"><i class="fab fa-html5 fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><i id="icon-csharp"></i></a>
 											<h3>IoT IMU con Visualización Web y en Unity</h3>
-											<p>Visualización de las mediciones de una unidad de medición inercial en un cliente web, servidas
+											<p> Visualización de las mediciones de una unidad de medición inercial en un cliente web, servidas
 												a través de un servidor WebSocket que toma las mediciones a través de un puerto serial. Puede verse la rotación 
 												de la IMU en gráficos desarrollados con three.js.
 												Adicionalmente, una interfaz desarrollada en Unity permite visualizar los valores de rotación en un modelo.
@@ -124,9 +146,14 @@
 									<article class="item">
 										<a href="https://github.com/javierb07/color-game" class="image fit"><img src="./images/projects/color-game/color-game-1.jpeg" alt="Juego de Adivinar Colores" id="color-game"/></a>
 										<header>
+											<a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/HTML"><i class="fab fa-html5 fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
+											<a href="https://nodejs.org/en/"><i class="fab fa-node fa-2x"></i></a>
+											<a href="https://www.mongodb.com/"><i id="icon-mongo"></i></a>
 											<h3>Juego de Adivinar Colores</h3>
 											<p> Este es un juego en el que el jugador debe elegir el color correcto entre una serie de cuadrados de colores,
-												en base a un código RGB. Hay tres niveles de dificultad, los puntajes quedan grabados en una base de datos youtu
+												en base a un código RGB. Hay tres niveles de dificultad, los puntajes quedan grabados en una base de datos y
 												se pueden consultar en tabla de puntajes más altos.
 												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
 												acceder.
@@ -140,15 +167,16 @@
 							<br>
 							<p class="titles">Proyectos en Python</p>
 							<div class="row">
-								<div class="col-4 col-12-mobile">
+								<div class="col-6 col-12-mobile">
 									<article class="item">
 										<a href="https://github.com/javierb07/rocket-lander" class="image fit"><img src="./images/projects/rocket-lander/rocket-lander-1.gif" alt="Aterrizador de Cohetes" id="rocket-lander"/></a>
 										<header>
+											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
 											<h3>Aterrizador de Cohetes</h3>
 											<p> Simulador de aterrizaje de cohetes verticales modelado a partir del cohete Falcon 9 de la primera 
 												etapa de SpaceX. La simulación se desarrolló en Python 3.5 y se escribió utilizando el entorno de 
-												gym de OpenAI. Box2D fue el motor de física elegido y el entorno es similar al del Lunar Lander. 
-												Mis contribuciones a este proyecto son: clase de control PID de lógica difusa y métricas de comparación al
+												gym de OpenAI. Box2D fue el motor de física elegido y el entorno es similar al del Lunar Lander. Este proyecto
+												es un fork de un proyecto existente, mis contribuciones son: clase de control PID de lógica difusa y métricas de comparación al
 												archivo principal de simulación (tiempo, combustible, objetivo). Además, guardado de estos datos para
 												posterior análisis.
 											</p>
@@ -157,10 +185,12 @@
 										</header>
 									</article>
 								</div>
-								<div class="col-4 col-12-mobile">
+								<div class="col-6 col-12-mobile">
 									<article class="item">
 										<a href="https://github.com/javierb07/two-factor-auth" class="image fit"><img src="./images/projects/two-factor/two-factor-1.jpeg" alt="Autenticación de Dos Factores" id="two-factor"/></a>
 										<header>
+											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/C%2B%2B"><i id="icon-c"></i></a>
 											<h3>Autenticación de Dos Factores</h3>
 											<p> Autenticación de dos factores realizada mediante contraseña numérica, 
 												introducida con botones y mostrada en pantalla, y reconocimiento facial. 
@@ -172,16 +202,41 @@
 										</header>
 									</article>
 								</div>
-								<div class="col-4 col-12-mobile">
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-6 col-12-mobile">
 									<article class="item">
 										<a href="https://github.com/javierb07/autonomous-vehicle" class="image fit"><img src="./images/projects/autonomous-vehicle/autonomous-vehicle-1.jpeg" alt="Vechículo Autónomo" id="autonomous-vehicle"/></a>
 										<header>
+											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
 											<h3>Vehículo Autónomo</h3>
 											<p> Un vehículo autónomo que navega por una pista y supera una serie de obstáculos,
 												incluyendo rampas, intersecciones en T, vueltas en U y estacionamiento. Está programado usando ROS y Python.
+												Como plataforma se utilizó un kit que contiene una Raspberry Pi. El vehículo consta de una cámara (la cual es usada
+												para la mayor parte de la navegación) y un sensor ultrasónico. Un motor por cada una de las cuatro ruedas son los 
+												acutadores del robot.
 											</p>
 											<p><a href="https://youtu.be/XSvWJ-0OGks"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
 											<p><a href="https://github.com/javierb07/autonomous-vehicle"><i class="fas fa-code"></i> Código</a></p>
+										</header>
+									</article>
+								</div>
+								<div class="col-6 col-12-mobile">
+									<article class="item">
+										<a href="https://github.com/javierb07/rivets-video-processor" class="image fit"><img src="./images/projects/rivet-analyzer/rivet-analyzer-1.jpeg" alt="Image Processor for Rivet Analyzer" id="rivet-analyzer"/></a>
+										<header>
+											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
+											<a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/HTML"><i class="fab fa-html5 fa-2x"></i></a>
+											<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
+											<h3>Procesamiento de Imágenes para Analizador de Remaches</h3>
+											<p> El objetivo de este proyecto es mejorar el mantenimiento de una aeronave, mediante la detección de remaches defectuosos.
+												Una plataforma robótica toma video de los remaches en el fuselaje del avión, luego un programa procesa estas imágenes
+												y las convierte en entrada adecuada para una red neuronal, la cual detecta los remeaches que necesitan mantenimiento.
+											</p>
+											<p><a href="https://javierb07.github.io/rivets-video-processor/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
+											<p><a href="https://github.com/javierb07/rivets-video-processor"><i class="fas fa-code"></i> Código</a></p>
 										</header>
 									</article>
 								</div>

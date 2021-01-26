@@ -1996,24 +1996,8 @@ input, select, textarea {
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 1.1em;
 			}
-
-		.item header .bot1{
-
-
-		}
-		.item header .bot2{
-
-
-		}
-		.item header .bot3{
-
-		}
-		.item header .bot{
-
-		}
-
 /* Icons */
 
 	.icon {
@@ -2246,7 +2230,6 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/portadasjavis2.png");
 		}
 
 			#main > section.dark {
@@ -2474,7 +2457,8 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				-webkit-overflow-scrolling: touch;
-				display: block;
+				display: flex;
+				flex-direction: column;
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
@@ -2681,7 +2665,7 @@ input, select, textarea {
 */
 
 header p {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	line-height: 1.2em;
 	text-align: justify;
 	margin: 0.8em;
@@ -2738,4 +2722,28 @@ h3{
 }
 .titles {
 	font-weight: bold;
+}
+#icon-c {
+	background: url('../../images/icons/c++.png');
+    height: 25px;
+    width: 25px;
+	display: inline-block;
+	background-size: contain;
+    /* Other styles here */
+}
+#icon-mongo {
+	background: url('../../images/icons/mongodb.png');
+    height: 25px;
+    width: 25px;
+	display: inline-block;
+	background-size: contain;
+    /* Other styles here */
+}
+#icon-csharp {
+	background: url('../../images/icons/c-sharp.png');
+    height: 25px;
+    width: 25px;
+	display: inline-block;
+	background-size: contain;
+    /* Other styles here */
 }
