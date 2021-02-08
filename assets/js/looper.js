@@ -33,8 +33,8 @@ $( document ).ready(function() {
     
     $('a').attr('target', '_blank');
     $('a').attr('rel', 'noreferrer noopener');
-    $('.es').attr('target', '_self');
-    $('.en').attr('target', '_self');
+    $('.closedA').attr('target', '_self');
+    $('.closedA').attr('rel', 'tag');
     // Request to visits tracker server
     $.get( "https://views-counter.herokuapp.com/api/update");
 });
