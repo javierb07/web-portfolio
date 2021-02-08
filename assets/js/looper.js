@@ -30,4 +30,12 @@ $( document ).ready(function() {
     setInterval(() => displayNextImage(imagesP4,"#autonomous-vehicle"), timer);
     setInterval(() => displayNextImage(imagesP5,"#color-game"), timer);
     setInterval(() => displayNextImage(imagesP6,"#rivet-analyzer"), timer);
+    
+    $('a').attr('target', '_blank');
+    $('a').attr('rel', 'noreferrer noopener');
+    $('.es').attr('target', '_self');
+    $('.en').attr('target', '_self');
+    // Request to visits tracker server
+    $.get( "https://views-counter.herokuapp.com/api/update");
 });
+

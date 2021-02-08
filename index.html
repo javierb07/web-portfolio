@@ -50,10 +50,16 @@
 					<section id="top" class="one dark cover">
 						<div class="container">
 							<header>
-								<h2 class="alt">Hola, soy <strong>Javier Belmonte</strong>, máster en ingeniería con especialización en mecatrónica.</h2>
-								<p>Soy Full-Stack Developer con pasión por el desarrollo de software, aquí se pueden encontrar algunos de mis proyectos.</p>
-								<p>Además, hay enlaces de descarga para mi CV y porfolio en formato PDF.</p>
-								<p>Finalmente, se puede encontrar un un formulario para comunicarse conmigo.</p>
+								<h2 class="alt">Hola, soy <strong>Javier Belmonte</strong>, máster en ingeniería con especialización en mecatrónica</h2>
+								<p> Estudié mi maestría en <strong><a href="https://www.purdue.edu/">Purdue University</a></strong>, donde mi investigación principal
+									estuvo enfocada en el desarrollo de una arquitectura que permite el control de máquinas por medio de realidad virtual.
+								</p>
+								<p> Soy Full-Stack Developer con pasión por el desarrollo de software, en la sección porfolio se pueden encontrar algunos de mis proyectos.
+									Cada proyecto tiene una descripción y enlaces a código, videos demostrativos o demos de las apps. Bajo las imágenes de cada proyecto, 
+									están las tecnologías que fueron utilizadas en su desarrollo.
+								</p>
+								<p>En la sección descargas hay un enlace a mi CV en formato PDF.</p>
+								<p>Finalmente, en la sección contacto existe un formulario para comunicarse conmigo.</p>
 							</header>
 						</div>
 					</section>
@@ -80,10 +86,12 @@
 												<a href="https://en.wikipedia.org/wiki/C%2B%2B"><i id="icon-c"></i></a>
 											</div>
 											<h3>Sistema de Gestión de Almacenamiento Inteligente</h3>
-											<p> Permite gestionar stock de materiales. Consta de una base de datos, un servidor y contenedores
-												de materiales con hardware dedicado, que actúan como clientes del servidor para actualizar la
-												cantidad de los elementos almacenados. El cálculo de la cantidad almacenada se hace por medio
-												de la medición del peso de los elementos. 
+											<p> Permite gestionar stock de materiales, actualizando automáticamente la cantidad de elementos almacenados.
+												Consta de una base de datos, un servidor y contenedores de materiales. Cada contenedor posee hardware dedicado, 
+												el cual calcula la cantidad almacenada de un elemento en base al peso. Otras características del software son: 
+												interfaz web, administración de usuarios y una REST API. 
+											</p>
+											<p>
 												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
 												acceder.
 											</p>
@@ -104,11 +112,12 @@
 											<a href="https://www.mongodb.com/"><i id="icon-mongo"></i></a>
 											<a href="https://www.python.org/"><i class="fab fa-python fa-2x"></i></a>
 											<h3>Panel de Control IoT</h3>
-											<p> Tablero que permite controlar máquinas o dispositivos conectados a enchufes inteligentes.
-												Se crea un servidor WebSocket por cada enchufe que permite encender, apagar y controlar el consumo
-												del elemento conectado. El nombre y la dirección de cada dispositvo se almacena en una base de datos.
-												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
-												acceder. Para probar la app se puede utilizar un WebSocket que creé específicamente para estas pruebas,
+											<p> Se trata de un tablero que permite controlar máquinas o dispositivos conectados a enchufes inteligentes.
+												Para ello, un servidor WebSocket es creado por cada enchufe que permite encender, apagar y controlar el consumo
+												de energía del elemento conectado. El nombre y la dirección de cada dispositvo se almacena en una base de datos.
+											</p>
+											<p> Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
+												acceder. Para probar la app sin hardware se puede utilizar un WebSocket creado específicamente para estas pruebas,
 												solo ingresar la dirección que se indica en la página web de esta app.
 											</p>
 											<p><a href="https://iot-control.herokuapp.com/control"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
@@ -129,11 +138,13 @@
 											<a href="https://en.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt fa-2x"></i></a>
 											<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><i id="icon-csharp"></i></a>
 											<h3>IoT IMU con Visualización Web y en Unity</h3>
-											<p> Visualización de las mediciones de una unidad de medición inercial en un cliente web, servidas
-												a través de un servidor WebSocket que toma las mediciones a través de un puerto serial. Puede verse la rotación 
-												de la IMU en gráficos desarrollados con three.js.
+											<p> Esta aplicación tiene como objetivo la visualización de las mediciones de una unidad de medición inercial
+												en un cliente web, servidas a través de un servidor WebSocket que toma las mediciones a través de un puerto serial. 
+												Puede verse la rotación	de la IMU en gráficos desarrollados con <strong><a href="https://threejs.org/">three.js</a></strong>.
+											</p>
+											<p>
 												Adicionalmente, una interfaz desarrollada en Unity permite visualizar los valores de rotación en un modelo.
-												Para probar la app es posible conectarse a un servidor WebSocket que creé específicamente para ello. Solo ingresar la 
+												Para probar la app sin hardware, es posible conectarse a un servidor WebSocket que creado específicamente para ello. Solo ingresar la 
 												dirección que se indica en la página web de esta app.
 											</p>
 											<p><a href="https://javierb07.github.io/iot-imu-unity/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
@@ -152,10 +163,11 @@
 											<a href="https://nodejs.org/en/"><i class="fab fa-node fa-2x"></i></a>
 											<a href="https://www.mongodb.com/"><i id="icon-mongo"></i></a>
 											<h3>Juego de Adivinar Colores</h3>
-											<p> Este es un juego en el que el jugador debe elegir el color correcto entre una serie de cuadrados de colores,
-												en base a un código RGB. Hay tres niveles de dificultad, los puntajes quedan grabados en una base de datos y
-												se pueden consultar en tabla de puntajes más altos.
-												Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
+											<p> En este juego el jugador debe elegir el color correcto, codificado en el modelo <strong><a href="https://es.wikipedia.org/wiki/RGB">RGB</a></strong>, 
+												entre una serie de cuadrados de colores. Hay tres niveles de dificultad, los puntajes quedan grabados en una base de datos y
+												se pueden consultar en tabla de puntajes.
+											</p>
+											<p> Nota: La app está almacenada en Heroku, esperar unos momentos a que el servidor despierte al intentar
 												acceder.
 											</p>
 											<p><a href="https://color-game-07.herokuapp.com/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
@@ -175,10 +187,11 @@
 											<h3>Aterrizador de Cohetes</h3>
 											<p> Simulador de aterrizaje de cohetes verticales modelado a partir del cohete Falcon 9 de la primera 
 												etapa de SpaceX. La simulación se desarrolló en Python 3.5 y se escribió utilizando el entorno de 
-												gym de OpenAI. Box2D fue el motor de física elegido y el entorno es similar al del Lunar Lander. Este proyecto
-												es un fork de un proyecto existente, mis contribuciones son: clase de control PID de lógica difusa y métricas de comparación al
-												archivo principal de simulación (tiempo, combustible, objetivo). Además, guardado de estos datos para
-												posterior análisis.
+												gym de OpenAI. Box2D fue el motor de física elegido y el entorno es similar al del Lunar Lander. 
+											</p>
+											<p>	Este proyecto es un fork de un proyecto existente, mis contribuciones son: clase de control PID de lógica 
+												difusa y métricas de comparación al	archivo principal de simulación (tiempo, combustible, objetivo). 
+												Además, almacenamiento de estos datos para posterior análisis.
 											</p>
 											<p><a href="https://youtu.be/5DkbCd-g2no"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
 											<p><a href="https://github.com/javierb07/rocket-lander"><i class="fas fa-code"></i> Código</a></p>
@@ -194,7 +207,8 @@
 											<h3>Autenticación de Dos Factores</h3>
 											<p> Autenticación de dos factores realizada mediante contraseña numérica, 
 												introducida con botones y mostrada en pantalla, y reconocimiento facial. 
-												El éxito de la autenticación se simula girando un servomotor. 
+											</p>
+											<p>	El éxito de la autenticación se simula girando un servomotor. 
 												Las entradas incorrectas de cualquiera de los factores hacen sonar una alarma.
 											</p>
 											<p><a href="https://youtu.be/wINe8STdtns"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
@@ -213,8 +227,9 @@
 											<h3>Vehículo Autónomo</h3>
 											<p> Un vehículo autónomo que navega por una pista y supera una serie de obstáculos,
 												incluyendo rampas, intersecciones en T, vueltas en U y estacionamiento. Está programado usando ROS y Python.
-												Como plataforma se utilizó un kit que contiene una Raspberry Pi. El vehículo consta de una cámara (la cual es usada
-												para la mayor parte de la navegación) y un sensor ultrasónico. Un motor por cada una de las cuatro ruedas son los 
+											</p>
+											<p> Como plataforma se utilizó un kit basado en Raspberry Pi. El vehículo consta de una cámara (la cual es usada
+												para la mayor parte de la navegación) y un sensor ultrasónico. Motores en cada una de las cuatro ruedas son los 
 												acutadores del robot.
 											</p>
 											<p><a href="https://youtu.be/XSvWJ-0OGks"><i class="fas fa-video"></i> Video demostrando funcionalidad</a></p> 
@@ -233,7 +248,7 @@
 											<h3>Procesamiento de Imágenes para Analizador de Remaches</h3>
 											<p> El objetivo de este proyecto es mejorar el mantenimiento de una aeronave, mediante la detección de remaches defectuosos.
 												Una plataforma robótica toma video de los remaches en el fuselaje del avión, luego un programa procesa estas imágenes
-												y las convierte en entrada adecuada para una red neuronal, la cual detecta los remeaches que necesitan mantenimiento.
+												y las convierte en entrada adecuada para una red neuronal, la cual detecta los remaches que necesitan mantenimiento.
 											</p>
 											<p><a href="https://javierb07.github.io/rivets-video-processor/"><i class="fa fa-window-maximize" aria-hidden="true"></i> Demostración de la App</a></p>
 											<p><a href="https://github.com/javierb07/rivets-video-processor"><i class="fas fa-code"></i> Código</a></p>
@@ -249,9 +264,7 @@
 							<header>
 								<h2>Descargas</h2>
 							</header>
-							<p>Descarga de curriculum: <a href="https://javierb07.github.io/web-portfolio//downloads/J.A.Belmonte-ES.pdf"><i class="fas fa-download"></i></a></p>
-							<p>Descarga de portfolio: <a href="https://javierb07.github.io/web-portfolio//downloads/Career Portfolio - Javier A. Belmonte - ES.pdf"><i class="fas fa-download"></i></a></p>
-
+							<embed src="https://javierb07.github.io/web-portfolio//downloads/J.A.Belmonte-ES.pdf" type="application/pdf" width="100%" height="600px" />
 						</div>
 					</section>
 				<!-- Contact -->

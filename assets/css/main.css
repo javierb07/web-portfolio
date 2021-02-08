@@ -2747,3 +2747,9 @@ h3{
 	background-size: contain;
     /* Other styles here */
 }
+strong {
+	font-weight: bold;
+}
+.container header p a{
+	margin: 0;
+}
