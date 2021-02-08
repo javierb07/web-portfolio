@@ -1,4 +1,4 @@
-# Web Porfolio
+# Web Portfolio
 
 Based on Prologue by HTML5 UP
 html5up.net | @ajlkn
