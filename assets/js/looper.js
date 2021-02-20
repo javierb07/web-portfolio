@@ -36,6 +36,6 @@ $( document ).ready(function() {
     $('.closedA').attr('target', '_self');
     $('.closedA').attr('rel', 'tag');
     // Request to visits tracker server
-    $.get( "https://views-counter.herokuapp.com/api/update");
+    $.get("https://views-counter.herokuapp.com/api/update");
 });
 
