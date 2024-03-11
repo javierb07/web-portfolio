@@ -1,6 +1,5 @@
 {
-    "liveServer.settings.port": 5501,
-    "cSpell.ignoreWords": [
-        "Webportfolio"
-    ]
+  "liveServer.settings.port": 5501,
+  "cSpell.ignoreWords": ["Webportfolio"],
+  "cSpell.words": ["ajlkn", "highscores", "mechatronics"]
 }
