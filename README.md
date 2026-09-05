@@ -1,5 +1,20 @@
 # Web Portfolio
 
+Javier Belmonte's personal portfolio, redesigned around software engineering,
+mechatronics, creative coding, and worldbuilding. The original project images,
+source links, demos, and resume are retained.
+
+The site remains plain HTML and CSS with no installed dependencies. Run
+`node scripts/preview.mjs` for a local preview or `node scripts/build.mjs` to
+validate local links and prepare the `dist` folder for Sites hosting.
+
+Main page: `index.html`. Current styles: `assets/css/portfolio.css`.
+The earlier template assets remain in the repository for reference and licensing.
+Original external demo links are retained; their external services are not
+validated by the local build. The missing Spanish page link was removed.
+
+## Original template credits
+
 Based on Prologue by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
