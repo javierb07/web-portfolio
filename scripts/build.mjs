@@ -16,6 +16,7 @@ await copyFile('LICENSE.txt', 'dist/LICENSE.txt');
 await cp('images', 'dist/images', { recursive: true });
 await mkdir('dist/assets/css', { recursive: true });
 await mkdir('dist/assets/resume', { recursive: true });
+await cp('assets/literature', 'dist/assets/literature', { recursive: true });
 await copyFile('assets/css/portfolio.css', 'dist/assets/css/portfolio.css');
 await copyFile('assets/resume/J.A.Belmonte.pdf', 'dist/assets/resume/J.A.Belmonte.pdf');
 console.log(`Static build complete. Verified ${checked} local links, assets, and section targets.`);
